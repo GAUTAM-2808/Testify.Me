@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TestifyMe | Technical Assessment</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="tech-bg"></div>
+
+  <div class="container active-flex" id="auth-screen">
+    <div class="glass-box">
+      <h1 class="logo">🎯 Testify<span>Me</span></h1>
+      <div class="tab-toggle">
+        <button id="loginTab" class="active">Login</button>
+        <button id="signupTab">Sign Up</button>
+      </div>
+      <form id="auth-form">
+        <div id="signup-fields" class="hidden">
+          <input type="text" placeholder="Full Name" class="input-field">
+        </div>
+        <input type="email" placeholder="Email Address" class="input-field" required>
+        <input type="password" placeholder="Password" class="input-field" required>
+        <button type="submit" class="main-btn">Enter Arena</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container hidden" id="home">
+    <div class="glass-box wide">
+      <h1 class="dashboard-title">System Ready.</h1>
+      <p class="subtitle">Select your domain to initialize the assessment.</p>
+      <div class="subjects">
+        <div class="subject-card"><span class="icon">🐍</span><h3>Python</h3></div>
+        <div class="subject-card"><span class="icon">☕</span><h3>Java</h3></div>
+        <div class="subject-card"><span class="icon">🌐</span><h3>WebTech</h3></div>
+      </div>
+      <button id="startBtn" class="main-btn glow">Initialize Test 🚀</button>
+    </div>
+  </div>
+
+  <div class="container hidden" id="quiz">
+    <div class="full-screen-quiz">
+      <div class="quiz-nav">
+        <h2 id="questionNumber">Step 01</h2>
+        <div class="progress-bar-wrap"><div id="progressBar" class="progress-bar"></div></div>
+      </div>
+
+      <div class="question-container">
+        <h2 id="questionText">Initializing Question...</h2>
+        <div id="codeDisplay" class="code-block hidden">
+          <pre><code id="codeSnippet"></code></pre>
+        </div>
+      </div>
+
+      <div class="answer-section">
+        <textarea id="answerBox" placeholder="// Input your logic or answer here..."></textarea>
+        <div class="action-buttons">
+          <button id="doneBtn" class="secondary-btn">Verify System</button>
+          <button id="nextBtn" class="main-btn">Next Objective</button>
+        </div>
+        <div id="correctAnswer" class="answer-reveal"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
