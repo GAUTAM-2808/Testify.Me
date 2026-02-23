@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "question": "What is Python?",
+      "answer": "Python is a high-level programming language."
+    },
+    {
+      "question": "What is HTML?",
+      "answer": "HTML is used to create web pages."
+    },
+    {
+      "question": "Write a Python program to print Hello",
+      "solutionCode": "print('Hello')",
+      "answer": "Hello"
+    },
+    {
+      "question": "What does this code do?",
+      "promptCode": "for i in range(5):\n  print(i)",
+      "answer": "Prints numbers 0 to 4"
+    },
+    {
+      "question": "What will this code output?",
+      "promptCode": "x = 10\ny = 20\nprint(x + y)",
+      "answer": "30"
+    },
+    {
+      "question": "Analyze this Python list operation",
+      "promptCode": "fruits = ['apple', 'banana', 'cherry']\nprint(fruits[1])",
+      "answer": "banana"
+    }
+  ]
+}
