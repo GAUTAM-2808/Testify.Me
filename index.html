@@ -38,7 +38,7 @@
         <div class="subject-card"><span class="icon">☕</span><h3>Java</h3></div>
         <div class="subject-card"><span class="icon">🌐</span><h3>WebTech</h3></div>
       </div>
-      <button id="startBtn" class="main-btn glow">Initialize Test 🚀</button>
+      <button id="startBtn" type="button" class="main-btn glow">Initialize Test 🚀</button>
     </div>
   </div>
 
@@ -58,9 +58,13 @@
 
       <div class="answer-section">
         <textarea id="answerBox" placeholder="// Input your logic or answer here..."></textarea>
+        <div id="codeRunner" class="code-runner hidden">
+          <button id="runCodeBtn" type="button" class="run-btn">🚀 Run Code</button>
+          <div id="codeOutput" class="code-output hidden"></div>
+        </div>
         <div class="action-buttons">
-          <button id="doneBtn" class="secondary-btn">Verify System</button>
-          <button id="nextBtn" class="main-btn">Next Objective</button>
+          <button id="doneBtn" type="button" class="secondary-btn">Verify System</button>
+          <button id="nextBtn" type="button" class="main-btn">Next Objective</button>
         </div>
         <div id="correctAnswer" class="answer-reveal"></div>
       </div>

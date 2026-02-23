@@ -1,0 +1,9 @@
+{
+  "name": "testifyme",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx json-server --watch Json_Server/db.json --port 3000 --static .",
+    "start:dev": "npx json-server --watch Json_Server/db.json --port 3000 --static ."
+  }
+}

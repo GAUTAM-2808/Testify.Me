@@ -10,14 +10,24 @@
     },
     {
       "question": "Write a Python program to print Hello",
-      "answer": "print('Hello')"
-    }
-
+      "code": "print('Hello')",
+      "answer": "Hello"
+    },
     {
-  "question": "What does this code do?",
-  "code": "for i in range(5):\n  print(i)",
-  "answer": "Prints numbers 0 to 4"
-}
+      "question": "What does this code do?",
+      "code": "for i in range(5):\n  print(i)",
+      "answer": "Prints numbers 0 to 4"
+    },
+    {
+      "question": "What will this code output?",
+      "code": "x = 10\ny = 20\nprint(x + y)",
+      "answer": "30"
+    },
+    {
+      "question": "Analyze this Python list operation",
+      "code": "fruits = ['apple', 'banana', 'cherry']\nprint(fruits[1])",
+      "answer": "banana"
+    }
   ]
 }
 
